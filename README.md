@@ -1,7 +1,7 @@
 # Stable Diffusion web UI
 Execute:
 
-    cd stable-diffusion-webui && ./webui.sh --skip-torch-cuda-test --precision full --no-half --xformers
+    cd stable-diffusion-webui && ./webui.sh --skip-torch-cuda-test --precision full --no-half
 
 
 Checkpoints :
@@ -37,13 +37,19 @@ Checkpoints :
 
 LoRAs :
 
-    Pony Diffusion :
-
-        cd stable-diffusion-webui/models/Lora && wget https://civitai.com/api/download/models/450029 && mv 450029 PonyDiffusion.safetensors
 
     Detail Tweaker :
 
         cd stable-diffusion-webui/models/Lora && wget https://civitai.com/api/download/models/62833 && mv 62833 DetailTweaker.safetensors
+
+    Realistic Skin :
+
+        cd stable-diffusion-webui/models/Lora && wget https://civitai.com/api/download/models/151465 && mv 151465 RealisticSkin.safetensors
+        
+    Deep Negative :
+
+        cd stable-diffusion-webui/embeddings && wget https://civitai.com/api/download/models/5637 && mv 5637 DeepNegative.pt
+
 
 Install :
 
