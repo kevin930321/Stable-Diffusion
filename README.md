@@ -8,47 +8,47 @@ Checkpoints :
 
     ChikMix :
 
-        cd stable-diffusion-webui/models/Stable-diffusion && wget https://civitai.com/api/download/models/59409 && mv 59409 ChikMix.safetensors
+        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/59409 && mv 59409 ChikMix.safetensors
 
 
     ASakushiMix :
 
-        cd stable-diffusion-webui/models/Stable-diffusion && wget https://civitai.com/api/download/models/133274 && mv 133274 ASakushiMix.safetensors
+        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/133274 && mv 133274 ASakushiMix.safetensors
 
 
     Pony Diffusion :
 
-        cd stable-diffusion-webui/models/Stable-diffusion && wget https://civitai.com/api/download/models/290640 && mv 290640 PonyDiffusion.safetensors
+        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/290640 && mv 290640 PonyDiffusion.safetensors
 
 
     ToonYou-JP :
 
-        cd stable-diffusion-webui/models/Stable-diffusion && wget https://civitai.com/api/download/models/98960 && mv 98960 ToonYou-JP.safetensors
+        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/98960 && mv 98960 ToonYou-JP.safetensors
 
 
     WildCardX-REAL :
 
-        cd stable-diffusion-webui/models/Stable-diffusion && wget https://civitai.com/api/download/models/342799 && mv 342799 WildCardX-REAL.safetensors
+        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/342799 && mv 342799 WildCardX-REAL.safetensors
 
 
     ChilloutMix :
 
-        cd stable-diffusion-webui/models/Stable-diffusion && wget https://civitai.com/api/download/models/11732 && mv 11732 ChilloutMix.safetensors
+        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/11732 && mv 11732 ChilloutMix.safetensors
 
 LoRAs :
 
 
     Detail Tweaker :
 
-        cd stable-diffusion-webui/models/Lora && wget https://civitai.com/api/download/models/62833 && mv 62833 DetailTweaker.safetensors
+        cd stable-diffusion-webui-forge/models/Lora && wget https://civitai.com/api/download/models/62833 && mv 62833 DetailTweaker.safetensors
 
     Realistic Skin :
 
-        cd stable-diffusion-webui/models/Lora && wget https://civitai.com/api/download/models/151465 && mv 151465 RealisticSkin.safetensors
+        cd stable-diffusion-webui-forge/models/Lora && wget https://civitai.com/api/download/models/151465 && mv 151465 RealisticSkin.safetensors
         
     Deep Negative :
 
-        cd stable-diffusion-webui/embeddings && wget https://civitai.com/api/download/models/5637 && mv 5637 DeepNegative.pt
+        cd stable-diffusion-webui-forge/embeddings && wget https://civitai.com/api/download/models/5637 && mv 5637 DeepNegative.pt
 
 
 Install :
