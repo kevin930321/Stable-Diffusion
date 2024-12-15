@@ -1,7 +1,7 @@
 # Stable Diffusion web UI
 Execute:
 
-    cd stable-diffusion-webui-forge && ./webui.sh --skip-torch-cuda-test
+    cd stable-diffusion-webui-forge && ./webui.sh --skip-torch-cuda-test --always-cpu
 
 
 Checkpoints :
