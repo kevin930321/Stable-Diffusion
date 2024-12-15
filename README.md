@@ -53,7 +53,7 @@ LoRAs :
 
 Install :
 
-    sudo apt-get update && sudo apt-get install libgl1
+    sudo apt-get update && sudo apt-get install libgl1 && sudo apt-get install libjpeg-dev
 
     git clone https://github.com/lllyasviel/stable-diffusion-webui-forge.git
 
