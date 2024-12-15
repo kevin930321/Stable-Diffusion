@@ -1,7 +1,7 @@
 # Stable Diffusion web UI
 Execute:
 
-    cd stable-diffusion-webui && ./webui.sh --skip-torch-cuda-test --precision full --no-half
+    cd stable-diffusion-webui-forge && ./webui.sh --skip-torch-cuda-test
 
 
 Checkpoints :
@@ -55,8 +55,9 @@ Install :
 
     sudo apt-get update && sudo apt-get install libgl1
 
-    git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+    git clone https://github.com/lllyasviel/stable-diffusion-webui-forge.git
 
+    
 Storage :
 
     df -h
