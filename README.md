@@ -1,7 +1,7 @@
 # Stable Diffusion web UI
 Execute:
 
-    cd stable-diffusion-webui-forge && ./webui.sh --skip-torch-cuda-test --always-cpu
+    cd stable-diffusion-webui-forge && ./webui.sh --skip-torch-cuda-test --always-cpu --all-in-fp16 --always-offload-from-vram
 
 
 Checkpoints :
@@ -11,11 +11,6 @@ Checkpoints :
         cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/59409 && mv 59409 ChikMix.safetensors
 
 
-    ASakushiMix :
-
-        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/133274 && mv 133274 ASakushiMix.safetensors
-
-
     Pony Diffusion :
 
         cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/290640 && mv 290640 PonyDiffusion.safetensors
@@ -23,7 +18,7 @@ Checkpoints :
 
     ToonYou-JP :
 
-        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/98960 && mv 98960 ToonYou-JP.safetensors
+        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/92834 && mv 92834 ToonYou-JP.safetensors
 
 
     WildCardX-REAL :
