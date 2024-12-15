@@ -11,11 +11,6 @@ Checkpoints :
         cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/59409 && mv 59409 ChikMix.safetensors
 
 
-    ASakushiMix :
-
-        cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/133274 && mv 133274 ASakushiMix.safetensors
-
-
     Pony Diffusion :
 
         cd stable-diffusion-webui-forge/models/Stable-diffusion && wget https://civitai.com/api/download/models/290640 && mv 290640 PonyDiffusion.safetensors
